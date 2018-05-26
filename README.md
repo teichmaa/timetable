@@ -6,6 +6,10 @@ Time table generator (solver) written in Haskell
 
 All you nedd is a Haskel compiler, for example GHC. See http://learnyouahaskell.com/introduction#what-you-need for more details.
 
+## Examples
+
+You can find input examples in the source file, and some more in `examples.md`. `examples.md` is also great source for test-input.
+
 ## Deployment
 
 Just run the `timetable.hs` using GHC or GHCI.
