@@ -25,7 +25,7 @@ and all rooms have the same number of available time slots.
 
 To see the result, simply type `main` in ghci or run the program using ghc. The output format is rather expressive.
 
-To see more than first found timetable, simply call `showTimeTable((createTimeTables lectures slots)!!n)` where `n` means that n-th found timetable will be shown.
+To see more than first found timetable, simply call `showTimeTable((createTimeTables allLectures customSlots)!!n)` where `n` means that n-th found timetable will be shown.
 
-To check how many timetables there are, use `length (createTimeTables lectures slots)`. Beware, this can take very long (up to hours) with bigger inputs (e.g. when number of all slots is bigger than 50) - because not just one, but all possibilities will be searched.
+To check how many timetables there are, use `length (createTimeTables allLectures customSlots)`. Beware, this can take very long (up to hours) with bigger inputs (e.g. when number of all slots is bigger than 50) - because not just one, but all possibilities will be searched.
 
